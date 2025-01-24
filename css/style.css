@@ -70,3 +70,22 @@ a, a:link {
 .vertical-top {
     vertical-align: middle;
 }
+.btn {
+    background-color: #5a5a5a;
+    color: white;
+    border: 0;
+    padding: 10px 15px;
+}
+.btn:hover {
+    background-color: black;
+}
+
+.btn-browse {
+    font-size: .75rem;    
+}
+
+#user_avatar {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
