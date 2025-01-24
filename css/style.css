@@ -15,8 +15,58 @@ body {
     color: #333;
 }
 
+a, a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* 각 영역 개별 스타일*/
 
 .header-links {
     display: flex;
+    justify-content: center;
+    font-size: 0.65rem;
+    background-color: #f5f5f5;
+}
+
+.header-links li {
+    padding: 10px 15px;
+}
+
+.header-links li:hover {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.logo p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#gnb {
+    display: flex;
+    justify-content: center;
+}
+
+#gnb li {
+    border: 1px solid #ccc;
+    font-size: .7rem;
+    padding: 10px 15px;
+}
+#gnb li:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#gnb li a {
+    text-transform: uppercase;
+}
+
+.vertical-top {
+    vertical-align: middle;
 }
